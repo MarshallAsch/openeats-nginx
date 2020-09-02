@@ -4,6 +4,8 @@
 
 This proxy server is meant as a way to easily link and serve the API and web app. Based on your environment file configuration, it will automatically bind the ports for the API and web app as well.
 
+Incase the docker container being used to hold the API has a different hostname or IP address, set the `API_HOST` environment variable to configure the upstream API server.
+
 See [the homepage](https://github.com/open-eats/OpenEats) for more information about OpenEats!
 
 # Contributing
